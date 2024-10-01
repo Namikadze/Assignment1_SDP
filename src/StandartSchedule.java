@@ -1,15 +1,12 @@
-//Prototype
 interface MovieSchedule extends Cloneable {
     MovieSchedule clone();
+    void setMovie(Movie movie);
+    void setTime(String time);
 }
 
 class StandardSchedule implements MovieSchedule {
     private String movie;
     private String time;
-
-    public void setMovie(String movie) {
-        this.movie = movie;
-    }
 
     public void setTime(String time) {
         this.time = time;
@@ -22,6 +19,10 @@ class StandardSchedule implements MovieSchedule {
             e.printStackTrace();
             return null;
         }
+    }
+
+    @Override
+    public void setMovie(Movie movie) {
     }
 
     public void showSchedule() {
