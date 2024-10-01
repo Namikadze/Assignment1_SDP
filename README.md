@@ -1,5 +1,4 @@
 Cinema Management System
-
 Project Overview
 The Cinema Management System is a Java application that demonstrates the use of five creational design patterns: Singleton, Factory Method, Abstract Factory, Builder, and Prototype. The system manages various operations such as movie listings, screens, ticket bookings, concessions, and customer interactions.
 
